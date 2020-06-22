@@ -81,8 +81,6 @@ function changeColors(color) {
 }
 
 function pickColor() {
-    // Math.random() generates a number between 0-1, so to get a number between 0-6 we multiply by 6. We can add 1 if we want 1-6
-    // Math.floor() removes everything after the decimal point
     var random = Math.floor(Math.random() * colors.length)
     return colors[random];
 }
